@@ -1,0 +1,114 @@
+.main-address{
+    height: 100%;
+}
+.add-main-container{
+    width: 100%;
+    display: flex;
+}
+.first-add{
+    width: 65%;
+    margin-left: 5px;
+    border: 1px solid rgb(175, 172, 172);
+}
+.second-add{
+    width: 30%;
+    margin-left: 5px;
+    border: 1px solid rgb(175, 172, 172);
+    box-shadow: 1px 2px 4px;
+}
+.btn-add-f{
+    background-color: #bec2ca;
+    border-radius: 3px;
+}
+.btn-add-s{
+    background-color: #bec2ca;
+    border-radius: 3px;
+    margin-top: 90px;
+    margin-left: 2px;
+}
+.add-second-container{
+    display: flex;
+    width: 100%;
+}
+.add-se-f{
+    width: 50%;
+}
+.add-se-s{
+    width: 20%;
+}
+.add-div-onclick{
+    border: 1px solid rgb(236, 229, 229);
+    padding: 12px;
+    background-color: rgb(130, 127, 127);
+    margin-left: 5px;
+    cursor: pointer;
+}
+/* //Active css// */
+.add-div-onclick:hover{
+    color: #e07e8f;
+}
+.active {
+    background-color: #fff;
+    color: #e07e8f;
+}
+/* Active css in over// */
+.add-se-f{
+    width: 40%;
+    border: 1px solid rgb(97, 93, 93);
+    margin-left: 5px;
+}
+.first-line{
+    
+    display: flex;
+    width: 100%;
+}
+.first-left{
+    width: 20%;
+    margin-left: 25%;
+    border: 1px solid black;
+}
+.first-right{
+    margin-left: 5%;
+    color: red;
+   
+}
+.btn-first-row{
+    
+    background-color: #bec2ca;
+    border-radius: 3px;
+    width: 50%;
+}
+.input-first-row{
+    border-radius: 3px;
+    width: 50%; 
+}
+.Invalid-code{
+    color: red;
+}
+.card-container{
+    width: 100%;
+}
+.one-second{
+    width: 60%;
+    margin: 4px;
+}
+.second-div-card{
+    display: flex;
+    width: 100%;
+    margin-left: 70px;
+}
+.sec-left{
+    width:100% ;
+    margin-left: 40px;
+}
+.sec-right{
+    width: 45%;
+}
+.btn-card-row{
+    background-color: #bec2ca;
+    border-radius: 3px;
+    width: 60%;
+}
+.upi-payment{
+    margin: 15px;
+}

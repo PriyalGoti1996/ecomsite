@@ -1,0 +1,43 @@
+.main-empty{
+    border: 1px solid rgb(148, 134, 134);
+    width: 50%;
+    margin: auto;
+    height:100%;
+    margin-bottom: 20px;
+
+}
+.img-empty{
+    height: 200px;
+    width: 200px;
+}
+.empt-btn{
+    margin-bottom: 20px;
+}
+.btn-div-empty{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+.empty-login{
+    width: 50%;
+    border: none;
+    background-color: rgb(205, 136, 71);
+    border-radius: 2px;
+    padding: 5px;
+}
+.empty-singup{
+    width: 28%;
+    margin-left: 9px;
+    border: 1px solid rgb(201, 189, 189);
+    background-color: white;
+    border-radius: 2px;
+    padding: 5px;
+}
+.link-continus{
+    font-size: large;
+    
+}
+.link-continus:hover{
+    color:  rgb(205, 136, 71);
+}

@@ -1,0 +1,161 @@
+
+.main-slide-container{
+    width: 98%;
+    display: flex;
+    /* border: 1px solid black; */
+    margin-left: 12px;
+    margin-right: 10px;
+   
+}
+.dropdwon-container{
+    width: 20%;
+    /* border: 1px solid black; */
+    margin: 0px 0px 0px 10px ;
+   
+}
+.slide-container{
+    width: 82%;
+    height: 470px;
+    /* border: 1px solid black; */
+    /* margin: 0px 10px 0px 0px ; */
+}
+.home-slider{
+    width: 100%;
+    height: 470px;
+    position: relative;
+}
+.drop{
+    padding: 14px;
+    display: inline-block;
+    width: 100%;
+    border-left: 2px solid white;
+    /* border: 0.5px solid white; */
+}
+.dropdown-content1{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 217px;
+    top: 0.1%;
+    background-color: rgb(253, 253, 253);
+    height: 200px;
+    width: 500px;
+    text-align: left;
+}
+.drop:hover .dropdown-content1{
+    display: block;
+}
+.drop:hover{
+    /* border: 0.5px solid rgb(231, 223, 223); */
+    border-left: 2px solid red;
+    
+}
+.img-border{
+    border-left: 1px solid black;
+}
+.main{
+    display: flex;
+}
+.right{
+    margin-left: 25px;
+}
+.img-hover{
+    height: 180px;
+    width: 180px;
+    margin-left: 35px;
+}
+.img-small{
+    height: 30px;
+    width: 30px;
+    border-radius: 360px;
+    margin-right: 5px;
+
+}
+.img-small:hover{
+    border-left: 1px solid red;
+}
+.inner-link{
+text-decoration: none;
+color: rgb(17, 17, 17);
+font-size:small;
+}
+.main-link{
+    color: black;
+    width: 60%;
+    background-color: rgb(253, 253, 253);
+}
+
+.main-link:hover{
+    text-decoration: none;
+}
+.inner-link:hover
+{
+    text-decoration: none;
+}
+.dropdown{
+    text-align: left;
+    margin-left: 10px;
+}
+.second{
+    text-align: center;
+}
+.second-part{
+    width: 99%;
+    display: flex;
+     margin-left: 8px;
+    margin-right: 7px;
+
+}
+.inner-sec{
+    width: 24%;
+    border: 1px solid gray;
+    margin: 15px;
+    box-shadow: 1px 2px 3px;
+}
+.second-img{
+    width: 90px;
+    height: 90px;
+    margin-top:5px ;
+}
+.horigontal-line{
+    width: 50%;
+    border: 1px solid black;
+    /* visibility: hidden; */
+    /* display: none; */
+    opacity: 0;
+}
+.horigontal-line:hover { 
+    width: 50%;
+    border: 1px solid black;
+    /* visibility: visible; */
+    /* display: block; */
+    opacity: 1;
+}
+.text-medail{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left:50%;
+   font-size:x-large;
+}
+.text-medail1{
+    color: white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-size: x-large;
+}
+.home-btn{
+    text-decoration: none;
+    position: absolute;
+    border: 1px solid white;
+    top:58%;
+    left:50%;
+    border-radius: 2px;
+    background: transparent;
+    color: white;
+    font-size:large;
+  
+   
+
+}

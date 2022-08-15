@@ -1,0 +1,45 @@
+.place-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 1% 3% 1% 3%;
+   
+   
+}
+.first-place-cont{
+    border: 1px solid rgb(175, 172, 172);
+    width: 60%;
+}
+.place-input{
+    margin: 2px;
+    width: 90%;
+}
+.second-place-cont{
+    margin-left: 5px;
+    width: 30%;
+    border: 1px solid rgb(175, 172, 172);
+    box-shadow: 1px 2px 4px;
+}
+.amount-type{
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-left: 5px;
+}
+.amount{
+    text-align: left;
+}
+#amount-id{
+color: rgb(210, 25, 105);
+}
+.place-btn-order{
+    width: 98%;
+    background-color: #bec2ca;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.btn-add{
+    background-color: #bec2ca;
+    border-radius: 3px;
+    margin: 5px 0px 5px 0px;  
+}

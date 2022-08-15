@@ -1,0 +1,91 @@
+.back-to-top {
+    background-color: rgb(19 25 23 / 78%);
+    padding: 10px;
+    color: white;
+}
+
+:root {
+    --footer-layer: rgb(19 25 23 / 78%);
+}
+
+[data-theme="dark"] {
+    --footer-layer: rgb(19 25 23 / 78%);
+}
+
+.main {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.main-footer {
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-color: transparent;
+    background-image: url("/public/silde1.jpg");
+    margin: auto;
+    z-index: 1;
+    color: white;
+}
+
+.main-footer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--footer-layer);
+    z-index: -1;
+}
+
+.inner-div-footer {
+    width: 25%;
+}
+
+.last-main {
+    border: 1px solid white;
+    display: flex;
+}
+
+.last-f {
+    position: absolute;
+    z-index: 1;
+    margin-top: 190px;
+    color: white;
+    border-top: 1px solid white;
+    width: 100%;
+    display: flex;
+    padding: 0px 20px;
+}
+
+.inner-last-footer {
+    display: flex;
+    margin: 20px;
+}
+
+.con-sosial {
+    height: 20px;
+    width: 20px;
+    border-radius: 360px;
+}
+
+.first-contain {
+    text-align: left;
+    padding: 0% 43%;
+    /* opacity: 1; */
+}
+
+.first-contain:hover {
+    /* opacity: 0.9; */
+    /* text-decoration: dashed overline underline; */
+    text-decoration: underline white 1.5px;
+    color: rgb(173, 158, 158);
+}
+.last-pr{
+    margin-left: 2px;
+}
+.copy-right{
+    margin:auto;
+}
